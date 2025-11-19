@@ -1,0 +1,9 @@
+
+- type: static-site
+  name: faceDetection
+  # ... (อื่นๆ)
+  routes:
+    # ตั้งค่า Fallback (Rewrite)
+    - type: rewrite
+      source: /.*
+      destination: /index.html
